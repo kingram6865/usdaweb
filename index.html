@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <title>Nutrition Data API Demo</title>
+</head>
+<body>
+  <div class="main">
+    <div class="top">
+      <h2>Nutritional Data API</h2>
+    </div>
+    <div class="container">
+      <div class="left">
+        <h4>API Endpoints</h4>
+        <ul class="nodefault api-endpoints">
+          <li class="descriptor">### Pre-selected food item</li>
+          <li class="api-endpoint">/food</li>
+          <li class="descriptor">### Search for a food item</li>
+          <li class="api-endpoint">/food/search/<input size="21" placeholder="Insert text and press Enter" /></li>
+          <li class="descriptor">### Select a food by id</li>
+          <li class="api-endpoint">/food/<span id="foodlist"><select class="foods-by-id"><option>default</option><select></span></li>
+          <li class="api-endpoint">/food/nutrition/<input type="text" size="15" placeholder="Nutrient, e.g. Tryptophan"></li>
+          <li class="api-endpoint">/food/nutrients</li>
+          <li class="api-endpoint">/food/nutrients/:term</li>
+          <li class="api-endpoint">/food/:id/nutrients</li>
+          <li class="api-endpoint">TBA</li>
+          <li class="api-endpoint">TBA</li>
+          <li class="api-endpoint">TBA</li>
+          <li class="api-endpoint">TBA</li>
+          <li class="api-endpoint">TBA</li>
+          <li class="api-endpoint">TBA</li>
+          <li class="api-endpoint">TBA</li>
+          </ul>
+      </div>
+      <div class="output">
+        <h4>API Call OUTPUT</h4>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

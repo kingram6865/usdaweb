@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.top {
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: cornflowerblue;
+}
+
+.left, .output {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  background-color: darkkhaki;
+  width: 40vw;
+}
+
+.output {
+  background-color: plum;
+  width: 60vw;
+}
+
+h1,h2,h3,h4,h5 {
+  text-align: center;
+}
+
+.nodefault {
+  list-style-type: none;
+}
+
+.api-endpoints li {
+  padding: 5 0;
+  margin: 5 0;
+}
+
+.descriptor {
+  font-weight: bold;
+}
+
+.api-endpoint {
+  text-align: left;
+}
